@@ -3,7 +3,10 @@ const { dependencies } = require('./package.json');
 module.exports = {
   name: 'shared_component',
   exposes: {
-    './Button': './src/Button',
+    './Header': './src/Header',
+    './Footer': './src/Footer',
+    './Title': './src/Title',
+    './SubTitle': './src/SubTitle',
   },
   filename: 'remoteEntry.js',
   shared: {

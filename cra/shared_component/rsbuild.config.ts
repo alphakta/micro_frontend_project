@@ -5,7 +5,7 @@ import mfConfig from './modulefederation.config';
 import rspack from '@rspack/core';
 export default defineConfig({
   server: {
-    port: 3003,
+    port: 3010,
   },
   source: {
     preEntry: false,

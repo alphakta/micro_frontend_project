@@ -4,6 +4,10 @@ module.exports = {
   name: 'remote',
   exposes: {
     './Button': './src/Button',
+    './Subtitle': './src/Subtitle',
+  },
+  remotes: {
+    shared_component: 'shared_component@http://localhost:3010/remoteEntry.js',
   },
   filename: 'remoteEntry.js',
   shared: {
@@ -18,5 +22,3 @@ module.exports = {
     },
   },
 };
-
-
